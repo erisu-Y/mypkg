@@ -8,9 +8,6 @@
 * ロボットシステム学　第2回目の課題提出用。
 * ros2 foxy環境下での使用を想定。
 
-## ダウンロード
-`$ git clone https://github.com/erisu-Y/ros2_robosys.git`
-
 ## テスト環境
 * Ubuntu20.04
 * ros2 foxy
@@ -30,12 +27,12 @@
 * talkerより受け取った変数をlistenerに送信する。
 
 ## 実行手順&インストール方法概要
-### <注意>ros2 foxy環境下で実行することが前提である。
-1.上記のダウンロードの項目に記載されている`git clone`コマンドを用いて、このリポジトリを`ros2_ws/src`の下にコピーする。  
-2.`cd ~/ros2_ws/`コマンドを用いてros2_wsディレクトリに移動し`colcon build`を行う。  
-3.1つ目の端末で`ros2 run mypkg talker`を用いてtalkerを実行する。  
-4.2つ目の端末で`ros2 run mypkg listener`を用いてlistenerを実行する。  
-5.満足のいくまで数字をカウントしたら`Ctrl+C`を用いて終了する。  
+### <注意>ros2 foxy環境下で実行することが前提である。  
+1.`cd ~/ros2_ws/`コマンドを用いてros2_wsディレクトリに移動し`colcon
+build`を行う。  
+2.1つ目の端末で`ros2 run mypkg talker`を用いてtalkerを実行する。  
+3.2つ目の端末で`ros2 run mypkg listener`を用いてlistenerを実行する。  
+4.満足のいくまで数字をカウントしたら`Ctrl+C`を用いて終了する。  
 ## ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されます。  
 * このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て、いくつか変更点を加え、自身の著作としたものです。  
