@@ -3,7 +3,8 @@
 # 概要
 [![test](https://github.com/erisu-Y/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/erisu-Y/ros2_robosys/actions)
 
-* ロボットシステム学の講義内で、ros2環境におけるプロセス間通信を学び、ロボットシステムへの理解を深めるためのリポジトリである。
+* ロボットシステム学の講義内で、ros2環境におけるプロセス間通信を学び、  
+  ロボットシステムへの理解を深めるためのリポジトリである。
 * ロボットシステム学　第2回目の課題提出用。
 * ros2 foxy環境下での使用を想定。
 
