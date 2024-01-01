@@ -1,7 +1,7 @@
 # ros2_ws/src/mypkg
 * robosys2023_ros2
 # 概要
-[![test](https://github.com/erisu-Y/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/erisu-Y/ros2_robosys/actions)
+[![test](https://github.com/erisu-Y/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/erisu-Y/mypkg/actions)
 
 * ロボットシステム学の講義内で、ros2環境におけるプロセス間通信を学び、  
   ロボットシステムへの理解を深めるためのリポジトリである。
@@ -28,8 +28,7 @@
 
 ## 実行手順&インストール方法概要
 ### <注意>ros2 foxy環境下で実行することが前提である。  
-1.`cd ~/ros2_ws/`コマンドを用いてros2_wsディレクトリに移動し`colcon
-build`を行う。  
+1.`cd ~/ros2_ws/`コマンドを用いてros2_wsディレクトリに移動し`colcon build`を行う。  
 2.1つ目の端末で`ros2 run mypkg talker`を用いてtalkerを実行する。  
 3.2つ目の端末で`ros2 run mypkg listener`を用いてlistenerを実行する。  
 4.満足のいくまで数字をカウントしたら`Ctrl+C`を用いて終了する。  
