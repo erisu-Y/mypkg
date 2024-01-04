@@ -3,14 +3,14 @@
 # 概要
 [![test](https://github.com/erisu-Y/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/erisu-Y/mypkg/actions)
 
-* ロボットシステム学の講義内で、ros2環境におけるプロセス間通信を学び、  
-  ロボットシステムへの理解を深めるためのリポジトリである。
+* このリポジトリはロボットシステム学の講義内で、GitHubやros2など、  
+  ロボットシステムへの理解を深める目的で制作および公開しています。
 * ロボットシステム学　第2回目の課題提出用。
-* ros2 foxy環境下での使用を想定。
+* ros2環境下での使用を想定。
 
 ## テスト環境
 * Ubuntu20.04
-* ros2 foxy
+* ros2
 * Python3
 
 ## ノード&トピック概要
@@ -27,7 +27,7 @@
 * talkerより受け取った変数をlistenerに送信する。
 
 ## 実行手順&インストール方法概要
-### <注意>ros2 foxy環境下で実行することが前提である。  
+### <注意>ros2環境下で実行することが前提である。  
 1.`cd ~/ros2_ws/`コマンドを用いてros2_wsディレクトリに移動し`colcon build`を行う。  
 2.1つ目の端末で`ros2 run mypkg talker`を用いてtalkerを実行する。  
 3.2つ目の端末で`ros2 run mypkg listener`を用いてlistenerを実行する。  
